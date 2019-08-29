@@ -1,10 +1,10 @@
-Name:       	ardin-base-system
-Version:    	1
+Name:       	{{{ git_dir_name }}}
+Version:    	{{{ git_dir_version }}}
 Release:    	1%{?dist}
 Summary:	Ardin Base System
 Group:		ardin
 
-URL:        	https://github.com/ardin/ardin-tools
+URL:        	https://github.com/ardin/ardin-base-system
 
 VCS:        	{{{ git_dir_vcs }}}
 Source:     	{{{ git_dir_pack }}}
