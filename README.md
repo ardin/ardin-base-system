@@ -3,19 +3,6 @@
 ## Description
 Meta package with common packages and configuration.
 
-## Installation
-
-**Fedora 30**
-
-* dnf copr enable ardin/ardin-tools -y
-* dnf install ardin-base-system -y
-
-**CentOS 7**
-
-* yum install yum-plugin-copr -y
-* yum copr enable ardin/ardin-tools -y
-* yum install ardin-base-system -y
-
 
 ## Files
 * /etc/profile.d/ardin-base-system.sh - prompt and history configuration
@@ -61,3 +48,16 @@ Meta package with common packages and configuration.
 * pwgen
 * screen
 
+
+## Installation
+
+**Fedora 30**
+
+* dnf copr enable ardin/ardin-tools -y
+* dnf install ardin-base-system -y
+
+**CentOS 7**
+
+* yum install yum-plugin-copr -y
+* yum copr enable ardin/ardin-tools -y
+* yum install ardin-base-system -y
