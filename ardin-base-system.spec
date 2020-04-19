@@ -11,10 +11,16 @@ Source:     	{{{ git_dir_pack }}}
 
 License:	GPL
 
+%if 0%{?centos} == 7
+Requires:	epel-release iotop sdparm pciutils strace ltrace ethstatus ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils ntpdate rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 links net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
+%endif
+
+%if 0%{?centos} == 8
+Requires:	epel-release iotop sdparm pciutils strace ltrace ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
+%endif
+
 %if 0%{?fedora} >= 29
 Requires:	iotop sdparm pciutils strace ltrace ethstatus ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils ntpdate rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 links net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
-%else
-Requires:	epel-release iotop sdparm pciutils strace ltrace ethstatus ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils ntpdate rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 links net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
 %endif
 
 
