@@ -61,3 +61,12 @@ Meta package with common packages and configuration.
 * yum install yum-plugin-copr -y
 * yum copr enable ardin/ardin-tools -y
 * yum install ardin-base-system -y
+
+**Rocky 8**
+
+* dnf install yum-plugin-copr -y
+* dnf copr enable ardin/ardin-tools -y
+* dnf install epel-release
+* dnf install ardin-base-system -y
+
+
