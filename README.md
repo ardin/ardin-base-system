@@ -66,7 +66,7 @@ Meta package with common packages and configuration.
 
 * dnf install yum-plugin-copr -y
 * dnf copr enable ardin/ardin-tools -y
-* dnf install epel-release
+* dnf install epel-release -y
 * dnf install ardin-base-system -y
 
 
