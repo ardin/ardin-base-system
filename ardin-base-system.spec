@@ -20,7 +20,7 @@ Requires:	epel-release iotop sdparm pciutils strace ltrace ethtool smartmontools
 %endif
 
 %if 0%{?fedora} >= 29
-Requires:	iotop sdparm pciutils strace ltrace ethstatus ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils ntpdate rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 links net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
+Requires:	iotop sdparm pciutils strace ltrace ethstatus ethtool smartmontools hdparm vim vim-enhanced hddtemp wget sysstat telnet rpmconf mtr bind-utils rsync nfs-utils socat iptraf iputils lsof openssh-clients bzip2 links net-tools tcpdump mc whois perl-libwww-perl perl-LWP-Protocol-https git pwgen screen
 %endif
 
 

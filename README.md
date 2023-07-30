@@ -1,5 +1,7 @@
 # Ardin Base System
 
+[![Copr build status](https://copr.fedorainfracloud.org/coprs/ardin/ardin-tools/package/ardin-base-system/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/ardin/ardin-tools/package/ardin-base-system/)
+
 ## Description
 Meta package with common packages and configuration.
 
@@ -51,7 +53,7 @@ Meta package with common packages and configuration.
 
 ## Installation
 
-**Fedora 30**
+**Fedora >30**
 
 * dnf copr enable ardin/ardin-tools -y
 * dnf install ardin-base-system -y
